@@ -26,7 +26,7 @@ public class InitiatorService extends MessageCracker implements Application {
 
     @Override
     public void toAdmin(Message message, SessionID sessionID) {
-        // Objective: Handles administrative messages sent to the counter party
+        // Objective: Handles administrative messages sent to the counterparty
         log.info("To admin {}", sessionID);
     }
 
