@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import quickfix.*;
 
 @Slf4j
-@Configuration
+//@Configuration // This line was commented after using the auto-implementation defined in application.properties file
 public class InitiatorConfiguration {
 
     @Bean
